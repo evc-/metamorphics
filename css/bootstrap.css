@@ -4236,8 +4236,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .container-fluid > .navbar-header,
   .container > .navbar-collapse,
   .container-fluid > .navbar-collapse {
-    margin-right: 0;
-    margin-left: 0;
+    /* margin-right: 0; */
+    /* margin-left: 0; */
+    margin: auto;
   }
 }
 .navbar-static-top {
@@ -4353,11 +4354,16 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar-nav {
-    float: left;
-    margin: 0;
+    /* float: left; */
+    margin: auto;
+    /* clear: left; */
+    ft; */
+    clear: both;
+    /* text-align: center; */
+    /* display: inline-block; */
   }
   .navbar-nav > li {
-    float: left;
+    /* float: left; */
   }
   .navbar-nav > li > a {
     padding-top: 15px;
@@ -4495,6 +4501,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default {
   background-color: #f8f8f8;
   border-color: #e7e7e7;
+  /* margin:  auto; */
 }
 .navbar-default .navbar-brand {
   color: #777;
