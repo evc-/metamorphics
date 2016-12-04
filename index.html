@@ -11,7 +11,6 @@
 
     <title>metamorphics</title>
 
-    <link href="https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica|IM+Fell+English|IM+Fell+English+SC" rel="stylesheet">
     <script src="https://use.typekit.net/lhi7pkc.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
@@ -31,24 +30,12 @@
 
 <body>
 
-  <div class="container-fluid">
-    <div class="row" id="toprow">
-      <div class="col-xs-12">
-        <span>Cart (0)</span>
-      </div>
-    </div>
-  </div>
-
   <!--Start body tags-->
   <div id="allbody">
     <div class="container" id="insidebody">
 
   <!--New nav -->
-<!--<div class="row">
-  <span id="meta">META</span>
-  <span id="morphics">MORPHICS</span>
-</div> -->
-
+<!--
     <div class="row nav-row">
       <div class="col-sm-4 col-xs-12 full">
         <button type="button" class="btn btn-default btn-lg navbuttoncustom">
@@ -90,7 +77,50 @@
         </button>
       </div>
     </div>
+  -->
+<!--New Nav like Launchpad -->
 
+<div class="row logo-row-index">
+    <div class="col-sm-4">
+    <span id="meta">META</span>
+    <span id="morphics">MORPHICS</span>
+  </div>
+  <div class="col-sm-8"></div>
+</div>
+
+<div class="row buttons-row-index">
+
+  <div class="col-sm-2"></div>
+  <div class="col-sm-2"></div>
+  <div class="col-sm-2">
+    <button type="button" class="navbuttoncustom-hatch">
+      <a href="about.html">
+        ABOUT
+      </a>
+    </div>
+  <div class="col-sm-2">
+    <button type="button" class="btn btn-default btn-lg navbuttoncustom-hatch">
+      <a href="mineralogie.html">
+        MINERALOGIE
+      </a>
+  </div>
+  <div class="col-sm-2">
+    <button type="button" class="btn btn-default btn-lg navbuttoncustom-hatch">
+      <a href="shop2.html">
+      SHOP
+      </a>
+    </button>
+  </div>
+  <div class="col-sm-2">
+    <button type="button" class="btn btn-default btn-lg navbuttoncustom-hatch">
+      <a href="custom.html">
+      CUSTOM
+      </a>
+    </button>
+  </div>
+
+
+</div>
 
 <!-- Full Width Image Header -->
 <img src="img/heroimg3-3.jpg" alt="hero" class="img-responsive center-block"  id="heroimage">
@@ -100,8 +130,8 @@
     <div class="row">
           <div class="col-xs-12 col-lg-12">
             <div id="text-container">
-              <p id="about-index-header">ABOUT</p>
-          <p id="white-text">Metamorphics are a set of display boxes for your crystal and mineral collections. They're 3d printed and come in a variety of different configurations. Each box has a rare earth magnet embedded into each side, which makes stacking and rearranging easy and satisfying.</p>
+              <p class="h3-white">ABOUT</p>
+          <p class="sm-white-text">Metamorphics are a set of display boxes for your crystal and mineral collections. They're 3d printed and come in a variety of different configurations. Each box has a rare earth magnet embedded into each side, which makes stacking and rearranging easy and satisfying.</p>
         </div>
       </div>
     </div>
@@ -141,13 +171,15 @@
 <!-- Media Left -->
 <div id="medialeft">
   <div class="row">
-      <div class="col-sm-6">
+    <div class="col-sm-1"></div>
+      <div class="col-sm-5">
         <img class="media-object-index img-responsive" src="img/img_0692.jpg" alt="imageleft">
       </div>
-      <div class="col-sm-6">
+      <div class="col-sm-5">
         <h4 class="media-heading">Start Your Own Collection</h4>
         <hr class="horizontal-rule"></hr>
           <p class="media-index">Part Zen Garden, part curiousity cabinet,  these carefully curated collections in a variety of sizes. Stack and arrange your set in any way you like. Always an option to add more boxes later.</p>
+      <div class="col-sm-1"></div>
     </div>
   </div>
 </div>
@@ -163,14 +195,16 @@
 <!-- Media Right -->
 <div id="mediaright">
     <div class="row">
-        <div class="col-sm-6">
+      <div class="col-sm-1"></div>
+        <div class="col-sm-5">
         <h4 class="media-heading">Custom Fit Your Collection</h4>
         <hr class="horizontal-rule"></hr>
           <p class="media-index">Empty cases come in all varieties of sizes and variations to fit your existing collection beautifully. A highly modular design allows you to keep adding pieces.</p>
     </div>
-      <div class="col-sm-6">
+      <div class="col-sm-5">
         <img class="media-object-index img-responsive" src="img/img_0745_cropped.jpg" alt="imageright">
       </div>
+      <div class="col-sm-1"></div>
   </div>
 </div>
 
@@ -214,7 +248,8 @@
 <div class="row bottom-index-info">
       <div class="col-sm-6 col-lg-6">
         <div id="news">
-        <h3 class="h3-white">NEWSLETTER</h3>
+        <h3 class="h3-white">Newsletter</h3>
+        <hr class="horizontal-rule-index-bottom"></hr>
           <p class="sm-white-text">Stay up to date on when we're restocking new box styles, crystals, and collections, and get access to special deals.</p>
           <form class="form-inline">
             <div class="form-group">
@@ -227,7 +262,8 @@
 
       <div class="col-sm-6 col-lg-6">
         <div id="custom">
-        <h3 class="h3-white">CUSTOM</h3>
+        <h3 class="h3-white">Custom</h3>
+        <hr class="horizontal-rule-index-bottom"></hr>
           <p class="sm-white-text">Can't find the perfect fit? Specify your dimensions and we'll create you a custom box that fits like a glove.</p>
       <form class="form-inline">
         <button type="submit" class="btn btn-default sharp">CREATE</button>
