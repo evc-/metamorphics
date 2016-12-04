@@ -9,25 +9,17 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+    <title>metamorphics</title>
+
     <link href="https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica|IM+Fell+English|IM+Fell+English+SC" rel="stylesheet">
     <script src="https://use.typekit.net/lhi7pkc.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
-    <title>METAMORPHICS</title>
-
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
 
-    <!-- Full Width CSS -->
-    <link href="css/full-width-pics.css" rel="stylesheet">
-
     <!-- Custom CSS -->
     <link href="css/morph_custom.css" rel="stylesheet">
-
-
-    <style>
-
-    </style>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -35,52 +27,88 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
 </head>
 
 <body>
 
-<!--Nav Bar-->
-
-<nav class="navbar navbar-default" role="navigation">
   <div class="container-fluid">
-
-<!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">
-      <img alt="Brand" src="../metamorphics/img/logo_main_sm.png">
-      </a>
-    </div>
-
-<!-- Collect the nav links, forms, and other content for toggling -->
-      <ul class="nav navbar-nav">
-        <li><a href="#">SHOP</a></li>
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="#">INFO</a></li>
-        <li><a href="#">LOOKBOOK</a></li>
-      </ul>
-  </div><!-- /.container-fluid -->
-</nav>
-
-<!-- Full Width Image Header -->
-
-  <header class="image-bg-fluid-height">
-  </header>
-
-  <!--Text Container-->
-  <div class="container-fluid">
-    <div class="row">
-        <div id="text-container">
-          <div class="col-xs-12 col-lg-12">
-          <p id="white-text">Metamorphics are a set of display boxes for your crystal and mineral collections. They're 3d printed and come in a variety of different configurations. Each box has a rare earth magnet embedded into each side, which makes stacking and rearranging easy and satisfying.</p>
-        </div>
+    <div class="row" id="toprow">
+      <div class="col-xs-12">
+        <span>Cart (0)</span>
       </div>
     </div>
   </div>
 
+  <!--Start body tags-->
+  <div id="allbody">
+    <div class="container" id="insidebody">
+
+  <!--New nav -->
+<!--<div class="row">
+  <span id="meta">META</span>
+  <span id="morphics">MORPHICS</span>
+</div> -->
+
+    <div class="row nav-row">
+      <div class="col-sm-4 col-xs-12 full">
+        <button type="button" class="btn btn-default btn-lg navbuttoncustom">
+        <span id="meta">META</span>
+        <span id="morphics">MORPHICS</span>
+        </button>
+      </div>
+      <div class="col-sm-2 col-xs-6 full">
+        <button type="button" class="btn btn-default btn-lg navbuttoncustom-hatch">
+          <a href="shop2.html">
+          SHOP
+          </a>
+        </button>
+      </div>
+
+      <div class="col-sm-2 col-xs-6 full">
+        <a href="/metamorphics/shop.html">
+        <button type="button" class="btn btn-default btn-lg navbuttoncustom-hatch">
+          <a href="about.html">
+          ABOUT
+          </a>
+        </button>
+      </a>
+      </div>
+
+      <div class="col-sm-2 col-xs-6 full">
+        <button type="button" class="btn btn-default btn-lg navbuttoncustom-hatch">
+          <a href="info.html">
+            INFO
+          </a>
+        </button>
+      </div>
+
+      <div class="col-sm-2 col-xs-6 full">
+        <button type="button" class="btn btn-default btn-lg navbuttoncustom-hatch">
+          <a href="lookbook.html">
+            LOOKBOOK
+          </a>
+        </button>
+      </div>
+    </div>
+
+
+<!-- Full Width Image Header -->
+<img src="img/heroimg3-3.jpg" alt="hero" class="img-responsive center-block"  id="heroimage">
+
+  <!--Text Container-->
+
+    <div class="row">
+          <div class="col-xs-12 col-lg-12">
+            <div id="text-container">
+              <p id="about-index-header">ABOUT</p>
+          <p id="white-text">Metamorphics are a set of display boxes for your crystal and mineral collections. They're 3d printed and come in a variety of different configurations. Each box has a rare earth magnet embedded into each side, which makes stacking and rearranging easy and satisfying.</p>
+        </div>
+      </div>
+    </div>
+
+
 <!--Crystal Icons-->
 <div id="icon-container">
-  <div class="container">
     <div class="row">
       <div class="col-xs-3 col-lg-3 crystalicons">
         <img class="img-responsive" src="./img/crystalicon1-01.png" alt="">
@@ -99,43 +127,56 @@
         <p class="icontext">MAGNETIC LOCKING</p>
       </div>
     </div>
-  </div>
 </div>
+
+<!--Divider -->
+<!--<div class="container-fluid">
+  <div class="row">
+        <div class="col-xs-12 col-lg-12 divider">
+    </div>
+  </div>
+</div>-->
+
 
 <!-- Media Left -->
 <div id="medialeft">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-5 col-sm-6">
-        <h4 class="media-heading">Start Your Own Collection</h4>
-          <p class="media-index">Part Zen Garden, part curiousity cabinet,  these carefully curated collections in a variety of sizes. Stack and arrange your set in any way you like. Always an option to add more boxes later.</p>
-      </div>
-      <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+  <div class="row">
+      <div class="col-sm-6">
         <img class="media-object-index img-responsive" src="img/img_0692.jpg" alt="imageleft">
       </div>
-
+      <div class="col-sm-6">
+        <h4 class="media-heading">Start Your Own Collection</h4>
+        <hr class="horizontal-rule"></hr>
+          <p class="media-index">Part Zen Garden, part curiousity cabinet,  these carefully curated collections in a variety of sizes. Stack and arrange your set in any way you like. Always an option to add more boxes later.</p>
     </div>
   </div>
 </div>
+
+<!--Divider -->
+<!-- <div class="container-fluid">
+  <div class="row">
+        <div class="col-xs-12 col-lg-12 divider">
+    </div>
+  </div>
+</div>-->
 
 <!-- Media Right -->
 <div id="mediaright">
-  <div class="container">
     <div class="row">
-        <div class="col-lg-5 col-lg-offset-1 col-sm-push-6 col-sm-6">
+        <div class="col-sm-6">
         <h4 class="media-heading">Custom Fit Your Collection</h4>
+        <hr class="horizontal-rule"></hr>
           <p class="media-index">Empty cases come in all varieties of sizes and variations to fit your existing collection beautifully. A highly modular design allows you to keep adding pieces.</p>
-      </div>
-      <div class="col-lg-5 col-sm-pull-6 col-sm-6">
+    </div>
+      <div class="col-sm-6">
         <img class="media-object-index img-responsive" src="img/img_0745_cropped.jpg" alt="imageright">
       </div>
-    </div>
   </div>
 </div>
 
-
 <!--Figures-->
-<div class="container">
+
+<!--
   <div class="row">
     <div id="figures">
       <div class="col-sm-4">
@@ -149,29 +190,55 @@
       </div>
     </div>
   </div>
-</div>
+-->
 
 <!--Bottom Info-->
-<div class="container">
-  <div class="row">
 
+<div class="row">
+  <div class="col-sm-12 col-lg-12">
+    <div class="contact-image">
+      <span id="questions">
+      Questions? Own a 3d printer and want the files?
+    </span>
+    <div class="btn-cont">
+      <a href="javascript:void(0)">
+        <div class="btn btn-contact">
+          <span>Contact Us</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="row bottom-index-info">
       <div class="col-sm-6 col-lg-6">
         <div id="news">
-        <h3>NEWSLETTER</h3>
+        <h3 class="h3-white">NEWSLETTER</h3>
           <p class="sm-white-text">Stay up to date on when we're restocking new box styles, crystals, and collections, and get access to special deals.</p>
+          <form class="form-inline">
+            <div class="form-group">
+                <input type="email" class="form-control" id="exampleInputEmail2" placeholder="EMAIL ADDRESS">
+            </div>
+            <button type="submit" class="btn btn-default sharp">SIGN UP</button>
+          </form>
       </div>
     </div>
 
       <div class="col-sm-6 col-lg-6">
         <div id="custom">
-        <h3>CUSTOM</h3>
+        <h3 class="h3-white">CUSTOM</h3>
           <p class="sm-white-text">Can't find the perfect fit? Specify your dimensions and we'll create you a custom box that fits like a glove.</p>
-      </div>
+      <form class="form-inline">
+        <button type="submit" class="btn btn-default sharp">CREATE</button>
+      </form>
     </div>
-  </div>
+    </div>
+
 </div>
 
-<div class="container">
+
+<!--
   <div class="row">
       <div class="col-sm-12">
         <div id="contact">
@@ -180,7 +247,39 @@
       </div>
     </div>
   </div>
+-->
+
+
+<!--End body divs with padding -->
+</div>
+</div>
+
+<div id="footer">
+  <div class="container-fluid">
+    <div class="row">
+
+        <div class="col-sm-4 col-xs-12">
+          <button type="button" class="btn btn-default btn-lg navbuttoncustom">
+          <span id="meta">META</span>
+          <span id="morphics">MORPHICS</span>
+          </button>
+        </div>
+
+      <!--  <img src="img/logo_main_sm.png" id="nav-logo-bottom"> -->
+        <div class="social-media-icons">
+          <img src="./img/behance.svg" alt="">
+          <img src="./img/instagram.svg" alt="">
+          <img src="./img/github.svg" alt="">
+          <img src="./img/pinterest.svg" alt="">
+          <img src="./img/facebook.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 
+
+
+</body>
 </html>

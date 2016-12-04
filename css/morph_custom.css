@@ -1,92 +1,261 @@
- body {
-        padding-top: 70px;
-        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    background-color: white;
-  }
+/* Body Stuff */
+
+#allbody {
+  border-right: 10px solid black;
+  border-bottom: 10px solid black;
+  border-left: 10px solid black;
+  border-top: 10px solid black;
+  background: url("../img/noisy_grid.png"); }
+
+#insidebody {
+  background-color: white; }
+
+/*Logo*/
+
+#meta {
+  font-size: 24pt;
+  font-family: mr-eaves-modern, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  color: black;
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+  margin: -5px;
+  padding: 15px; }
+
+#morphics {
+  font-size: 24pt;
+  font-family: mr-eaves-modern, sans-serif;
+  font-style: normal;
+  color: white;
+  font-weight: 800;
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+  background-color: black;
+  margin: -5px;
+  padding: 15px; }
+
+/*Top Row Stuff */
+
+#toprow {
+  font-family: "mr-eaves-modern",sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  text-align: right; }
+
+/*Nav Buttons*/
+
+.navbuttoncustom {
+  background-color: white;
+  border-radius: 0px;
+  border-width: 0px;
+  font-size: 16pt;
+  font-family: mr-eaves-modern, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  color: black;
+  margin: -5px;
+  padding: 15px;
+  letter-spacing: 4px;
+  width: 100%; }
+
+.navbuttoncustom-hatch {
+  background-color: white;
+  border-radius: 0px;
+  border-width: 0px;
+  font-size: 16pt;
+  font-family: mr-eaves-modern, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  color: black;
+  margin: -5px;
+  padding: 15px;
+  letter-spacing: 4px;
+  background: #fff url(../img/nav-bk.png) repeat-x;
+  width: 100%;
+  text-decoration: none; }
+
+.navbuttoncustom:hover {
+  background-color: #CACACB;
+  border-radius: 0px;
+  border-width: 0px; }
+
+.nav-row .full{
+  margin: 0px;
+  border: 0px;
+  padding:0px;  }
+
+#nav-logo {
+  width:70%; }
+
+.nav-links {
+  font-size: 2em; }
+
+#toprow {
+  border-bottom: 7px solid black;
+  background-color: black;
+  color:white; }
+
+.nav-row {
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
+#heroimage {
+  width:100%; }
 
 .centernav {
-    margin: auto; }
+  margin: auto; }
 
- .navbar-brand > img {
-     height: 100px;
-     margin:auto; }
+.navbar-brand > img {
+  height: 100px;
+  margin:auto; }
 
 .navbar-header {
-    width:100%;
-     min-height: 150px;
-     margin: auto; }
+  width:100%;
+  min-height: 150px;
+  margin: auto; }
 
 .navbar-nav {
-    width: 100%;
-    text-align: center; }
+  width: 100%;
+  text-align: center; }
 
 .navbar-brand {
-    width: 100%;
-    display: inline-block;
-    float: none;
-    text-align: center; }
+  width: 100%;
+  display: inline-block;
+  float: none;
+  text-align: center; }
 
 .navbar-nav > li {
-      float: none;
-      display: inline-block;
-      font-size: 20pt; }
+  float: none;
+  display: inline-block;
+  font-size: 20pt; }
 
-.media-object-index {
-      width: 100%;
-      height: auto;
-    /* border-style: solid;
-      border-width: 3px;
-      border-color: #6D6D6D; */
-    }
-
-.media-heading {
-  padding: 10px;
-  font-family: 'IM Fell English SC', serif;
-  font-size: 28pt; }
-
-.media-index {
-  padding: 10px;
-  font-family: 'IM Fell English SC', serif;
-  font-size: 18pt; }
-
-#medialeft {
-  margin: 30px;
-border-style: solid;
-border-width: 3px;
-border-color: #8E8E8E;
-background-color: #EFEFEF; }
-
-#mediaright {
- margin:30px;
- border-style: solid;
- border-width: 3px;
- border-color: #8E8E8E;
-background-color: #EFEFEF; }
-
-.media-text-right {
-  text-align: right; }
+    /*About Text Container*/
 
 #text-container {
   display:block;
   clear:both;
   background-color: black;
-  width: 100%;
-  height: 200px;
-  line-height:200px; }
+  height: auto;
+  margin-top:15px;}
 
 #white-text {
-    color: white;
-    font-size: 1.5em;
-    font-family: 'IM Fell English SC', serif;
-    text-align: center;
-    line-height: 1.5;
-    vertical-align: middle;
-    padding-top: 20px; }
+  color: white;
+  font-size: 1.4em;
+  font-family: "mrs-eaves",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.5;
+  vertical-align: middle;
+  padding: 20px; }
 
-h3 {
+#about-index-header {
+  font-family: "mr-eaves-modern",sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18pt;
+  color: white;
+  text-align: center; }
+
+    /*Hover Crystal Icons*/
+
+.crystalicons img {
+  max-width: 50%;
+  height: auto;
+  margin:auto; }
+
+#icon-container {
+  background-color: white;
+  padding-top:20px; }
+
+.crystalicons {
+  transition: all .2s; }
+
+.crystalicons > p {
+  transition: all .2s;
+  color: #142619;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+  opacity: 0;
+  background: rgba(0, 0, 0, .8);
+  background-color: #701A12;
+  height:100%;
+  font-size: 2em;
+  color: white;
+  line-height: 120px;
+  text-align: center;
+  font-family: "mr-eaves-modern",sans-serif;
+  font-style: normal;
+  font-weight: 700; }
+
+.crystalicons:hover > img {
+  opacity: 0;
+  background: rgba(0, 0, 0, .8);
+  background-color: #701A12; }
+
+.crystalicons:hover > p {
+  opacity: 1;
+  background: rgba(0, 0, 0, .8);
+  background-color: #701A12; }
+
+  /*Pictures with Text on Index*/
+
+#mediaright {
+  margin-top: 15px; }
+
+#medialeft {
+  margin-top: 15px; }
+
+.media-object-index {
+  width: 100%;
+  height: auto;
+  padding: 25px; }
+
+.media-heading {
+  font-family: "mr-eaves-modern",sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.8em;
+  margin-top: 100px;
+  text-align:justify; }
+
+.media-index {
+  font-family: "mrs-eaves",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.7em;
+  text-align:justify;
+  margin-top: 15px; }
+
+.media-text-right {
+  text-align: right; }
+
+.divider {
+  background-color: #F8A51E;
+  min-height:20px;
+  margin-top:20px; }
+
+.horizontal-rule {
+  height:0px;
+  border-radius: 2px;
+  border: 2px solid currentColor;
+  width: 80%;
+  margin-left: 0px; }
+
+.h3-white {
   text-align: center;
   color: white;
-  padding: 5px;}
+  padding: 5px;
+  font-family: "mr-eaves-modern",sans-serif;
+  font-style: normal;
+  font-weight: 700; }
 
 #news {
   background-color: #142619;
@@ -94,6 +263,15 @@ h3 {
   border-color: white;
   border-width: 0px;
   text-align: center; }
+
+.form-inline {
+  padding-bottom: 15px; }
+
+.form-control {
+  border-radius: 0px; }
+
+.sharp {
+  border-radius: 0px; }
 
 #custom {
   background-color: #142619;
@@ -108,19 +286,270 @@ h3 {
 
 .sm-white-text {
   color: white;
-  font-size: 1em;
-  font-family: 'IM Fell English SC', serif;
+  font-size: 1.5em;
+  font-family: "mrs-eaves",sans-serif;
+  font-style: normal;
+  font-weight: 400;
   text-align: center;
   padding: 10px; }
 
-.crystalicons img {
-  max-width: 50%;
-  height: auto;
-  margin:auto;}
 
-.icontext {
-  text-align: center; }
+/*Shop Hover*/
 
-#icon-container {
-  background-color: white;
+.productpic {
+  transition: all .2s; }
+
+.descriptions {
+    transition: all .2s;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    opacity: 0;
+    height:65%;
+    font-size: 1em;
+    text-align: center;
+    font-family: "mr-eaves-modern",sans-serif;
+    font-style: normal;
+    font-weight: 300; }
+
+.productpic:hover img {
+  opacity: 0.35;
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;}
+
+.productpic:hover {
+  opacity: 1; }
+
+.descriptions:hover {
+  opacity: 1; }
+
+
+  /*Contact Button Stuff*/
+
+.btn-contact {
+  border-radius: 0px;
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+}
+  .btn-cont {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); }
+
+  .btn-cont a {
+    text-decoration: none; }
+
+  .btn-cont .btn {
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.125em;
+    width: 300px;
+    height: 48px;
+    background-color: white;
+    position: relative;
+    overflow: hidden; }
+
+  .btn-cont .btn span {
+    display: block;
+    margin-top:7px; }
+
+  .btn-cont .btn:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid #F8A51E;
+    position: absolute;
+    bottom: -21%;
+    left: 0px;
+    -webkit-transform: rotate(-45deg) translateX(-50px);
+            transform: rotate(-45deg) translateX(-50px);
+    -webkit-transition: -webkit-transform 200ms ease;
+    transition: -webkit-transform 200ms ease;
+    transition: transform 200ms ease;
+    transition: transform 200ms ease, -webkit-transform 200ms ease; }
+
+  .btn-cont .btn:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid #F8A51E;
+    position: absolute;
+    top: -21%;
+    right: 0px;
+    -webkit-transform: rotate(135deg) translateX(-50px);
+            transform: rotate(135deg) translateX(-50px);
+    -webkit-transition: -webkit-transform 200ms ease;
+    transition: -webkit-transform 200ms ease;
+    transition: transform 200ms ease;
+    transition: transform 200ms ease, -webkit-transform 200ms ease; }
+
+  .btn-cont .btn:hover:before {
+    -webkit-transform: rotate(-45deg) translateX(0);
+            transform: rotate(-45deg) translateX(0);  }
+
+  .btn-cont .btn:hover:after {
+    -webkit-transform: rotate(135deg) translateX(0);
+            transform: rotate(135deg) translateX(0);  }
+
+.contact-image {
+  background: url("../img/mineral_bg_crop.jpg");
+  min-height: 300px; }
+
+.bottom-index-info {
+  margin-bottom: 10px; }
+
+#questions {
+  color: white;
+  font-size: 2em;
+  font-family: "mr-eaves-modern",sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);}
+
+  /*Footer*/
+
+#footer {
+  background-color: black;
+  border-right: 7px solid black;
+  border-bottom: 7px solid black;
+  border-left: 7px solid black;
+  color: white; }
+
+.social-media-icons {
+  float: right; }
+
+#nav-logo-bottom {
+  max-height:55px; }
+
+  /*Shop Item CSS*/
+
+.item-container {
+  border-style:solid;
+  border-color: black;
+  border-width: 3px;
+  margin-left: 0px;
+  margin-right: 0px; }
+
+.shop-item-pic {
+  width: 100%;
+  margin-left: -15px; }
+
+.page-header {
+  font-family: "mr-eaves-modern",sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24pt;  }
+
+.item-description {
+  font-family: "mr-eaves-modern",sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18pt; }
+
+.item-details li {
+  font-family: "mr-eaves-modern",sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16pt; }
+
+.add-to-cart {
+  background-color: black;
+  color: white;
+  font-family: "mr-eaves-modern",sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30pt;
+  text-align: center;
+  border-style: solid;
+  border-top-width: 0px;
+  border-left-width: 3px;
+  border-right-width: 3px;
+  border-bottom-width: 3px;
+  border-color: black; }
+
+.add-to-cart:hover {
+  background-color: #F8A51E;
+  border-style: solid;
+  border-top-width: 0px;
+  border-left-width: 3px;
+  border-right-width: 3px;
+  border-bottom-width: 3px;
+  border-color: black; }
+
+  /*Look Book*/
+
+#columns {
+	column-width: 320px;
+	column-gap: 15px;
+  width: 90%;
+	max-width: 1100px;
+	margin: 50px auto;
+}
+
+div#columns figure {
+	background: #fefefe;
+	border: 2px solid #fcfcfc;
+	box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+	margin: 0 2px 15px;
+	padding: 15px;
+	padding-bottom: 10px;
+	transition: opacity .4s ease-in-out;
+  display: inline-block;
+  column-break-inside: avoid;
+}
+
+div#columns figure img {
+	width: 100%; height: auto;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 15px;
+	margin-bottom: 5px;
+}
+
+div#columns figure figcaption {
+  font-size: .9rem;
+	color: #444;
+  line-height: 1.5;
+}
+
+div#columns small {
+  font-size: 1rem;
+  float: right;
+  text-transform: uppercase;
+  color: #aaa;
+}
+
+div#columns small a {
+  color: #666;
+  text-decoration: none;
+  transition: .4s color;
+}
+
+div#columns:hover figure:not(:hover) {
+	opacity: 0.4;
+}
+
+@media screen and (max-width: 750px) {
+  #columns { column-gap: 0px; }
+  #columns figure { width: 100%; }
 }
