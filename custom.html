@@ -31,32 +31,72 @@
 
 <body>
 
-  <!--<div class="container-fluid">
-    <div class="row" id="toprow">
-      <div class="col-xs-12">
-        <span>My Account</span>
-        <span>Search</span>
-        <span>Cart (0)</span>
+<!--New Nav Bar Inside Pages -->
+
+<div class="container-fluid">
+  <div class="row" id="toprow">
+
+    <div class="col-sm-1"></div>
+
+    <div class="col-xs-6 col-sm-2">
+      <div class="navbuttoncustom-hatch">
+        <a class="a-white" href="about.html">
+          ABOUT
+        </a>
       </div>
     </div>
-  </div>-->
+
+    <div class="col-xs-6 col-sm-2">
+      <div class="navbuttoncustom-hatch">
+        <a class="a-white" href="custom.html">
+          CUSTOM
+        </a>
+      </div>
+    </div>
+
+    <div class="col-xs-6 hidden-sm">
+      <div class="logo-nav-center">
+        <a href="index.html">
+          <div class="img-responsive icon-logo">
+            <img src="img/icon_logo_bk.png" alt="">
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="col-xs-6 col-sm-2">
+      <div class="navbuttoncustom-hatch">
+        <a class="a-white" href="shop2.html">
+          SHOP
+        </a>
+      </div>
+    </div>
+
+    <div class="col-xs-6 col-sm-2">
+      <div class="navbuttoncustom-hatch">
+        <a class="a-white" href="mineralogie.html">
+          MINERALOGIE
+        </a>
+      </div>
+    </div>
+
+    <div class="col-sm-1"></div>
+
+    </div>
+  </div>
 
   <!--Start body tags-->
   <div id="allbody">
     <div class="container" id="insidebody">
 
   <!--New nav -->
-<!--<div class="row">
-  <span id="meta">META</span>
-  <span id="morphics">MORPHICS</span>
-</div> -->
 
+<!--
     <div class="row nav-row">
       <div class="col-sm-4 col-xs-12">
-        <button type="button" class="btn btn-default btn-lg navbuttoncustom">
-        <span id="meta">META</span>
-        <span id="morphics">MORPHICS</span>
-        </button>
+        <div class="img-responsive icon-logo">
+          <img src="img/icon_logo_bk.png" alt="">
+        </div>
       </div>
       <div class="col-sm-2 col-xs-6">
         <button type="button" class="btn btn-default btn-lg navbuttoncustom-hatch">
@@ -88,27 +128,121 @@
         <button type="button" class="btn btn-default btn-lg navbuttoncustom-hatch">LOOKBOOK</button>
       </div>
     </div>
+  -->
 
+<!--Form Header-->
+<div class="row">
+  <div class="col-sm-1"></div>
+    <div class="col-sm-10">
+      <h4 class="media-heading-no-margin-xl">Custom Create</h4>
+      <hr class="horizontal-rule"></hr>
+    </div>
+  <div class="col-sm-1"></div>
+</div>
 
-    <!--Form from Codepen-->
+    <!--Form-->
+
+<div class="row">
+  <div class="col-sm-1"></div>
+
+<!--Custom Form Specs-->
+
+  <div class="col-sm-7">
+    <div id="custom-form-specs">
+      <form action="" class="custom-create">
+          <h4 class="media-heading-no-margin-sm">How tall should it be?</h4>
+          <select name="height" class="input-custom">
+            <option value="quarter-height">Quarter Height (25mm)</option>
+            <option value="half-height">Half Height (50mm)</option>
+            <option value="full-height" selected>Full Height (100mm)</option>
+            <option value="three-quarters-height">Three Quarters Height (150mm)</option>
+            <option value="double-height">Double Height(200mm)</option>
+          </select>
+          <br>
+          <br>
+          <h4 class="media-heading-no-margin-sm">How wide should it be?</h4>
+          <select name="width" class="input-custom">
+            <option value="quarter-width">Quarter Width (25mm)</option>
+            <option value="half-width">Half Width (50mm) </option>
+            <option value="full-width" selected>Full Width (100mm) </option>
+            <option value="three-quarters-height">Three Quarters Width (150mm)</option>
+            <option value="double-width">Double Width (200mm)</option>
+          </select>
+          <br>
+          <br>
+          <h4 class="media-heading-no-margin-sm">How many horizontal shelves?</h4>
+            <input class="input-custom" type="number" name="quantity" min="1" max="10">
+          <br>
+          <br>
+          <h4 class="media-heading-no-margin-sm">How many vertical shelves?</h4>
+            <input class="input-custom" type="number" name="quantity" min="1" max="10">
+          <br>
+          <br>
+          <h4 class="media-heading-no-margin-sm">How deep should the back wall be?</h4>
+          <p class="custom-form-p">Note: Pick the minimum depth that allows your crystal to fit. Otherwise, it may appear too nested in the case and be hard to see.</p>
+          <select name="wall-depth" class="input-custom">
+            <option value="full-depth" selected>Full Depth (xxxmm)</option>
+            <option value="recessed-depth">Recessed Back Wall (xxxmm)</option>
+            <option value="extra-shallow">Extra Shallow Back Wall (xxxmm)</option>
+          </select>
+          <br>
+          <br>
+          <h4 class="media-heading-no-margin-sm">Raised floor or Standard?</h4>
+          <p class="custom-form-p">Note: All metamorphics boxes come with a standard size lip to prevent crystals from falling out of the display. Choose a raised floor for smaller specimans to ensure the lip doesn't obscure them.</p>
+              <br>
+              <input type="radio" name="standard-floor" value="standard-floor">
+              <span class="input-custom-no-ul">Standard Floor</span>
+              <br>
+            <input type="radio" name="raised-floor" value="raised-floor">
+              <span class="input-custom-no-ul">Raised Floor</span>
+          <br>
+          <br>
+          <br>
+          <br>
+            <textarea class="input-custom" rows="5" cols="50" name="description">Enter Any Additional Details or Specifications</textarea>
+          <br>
+          <br>
+            <input class="submit-custom" type="submit" value="SUBMIT">
+            <br>
+            <br>
+      </form>
+    </div>
+  </div>
+
+  <div class="col-sm-3">
+    <br>
+    <br>
+    <p class="media-index">Can't find the right fit? Specify your dimensions and we'll create the perfect sized box. All custom boxes come with embedded rare earth magnets to ensure all of your metamorphics boxes fit together. Depending on size, custom boxes may require 2-8 magnets. </p>
+  </div>
+
+</div>
+
+  <div class="col-sm-1"></div>
 
     <!--End body divs with padding -->
     </div>
     </div>
 
+<!--Footer-->
     <div id="footer">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-sm-12 col-md-12">
-            <img src="img/logo_main_sm.png" id="nav-logo-bottom">
+
+            <div class="col-sm-4 col-xs-12">
+              <div class="footer-logo">
+                <span id="meta-inverse">META</span>
+                <span id="morphics-inverse">MORPHICS</span>
+              </div>
+            </div>
+
             <div class="social-media-icons">
-              <img src="./img/behance.svg" alt="">
+              <img alt="https://www.behance.net/evelyncranston" src="./img/behance.svg" alt="">
               <img src="./img/instagram.svg" alt="">
-              <img src="./img/github.svg" alt="">
+              <img alt="https://github.com/evc-" src="./img/github.svg" alt="">
               <img src="./img/pinterest.svg" alt="">
               <img src="./img/facebook.svg" alt="">
             </div>
-          </div>
+
         </div>
       </div>
     </div>
