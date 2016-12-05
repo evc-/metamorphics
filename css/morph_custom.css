@@ -90,14 +90,6 @@ float: right;}
 #nav-logo-bottom {
   max-height:55px; }
 
-/*New Launchpad Nav*/
-/*
-.logo-row-index {
-  margin-top: 30px; }
-
-.buttons-row-index {
-  margin-top: 30px;
-  background: #fff url(../img/nav-bk.png) repeat-x; }*/
 
 /*Icon Logo*/
 
@@ -202,58 +194,6 @@ float: right;}
   margin-top: 95px;
   margin-bottom: 20px;
   text-align: center; }
-
-/*
-.navbuttoncustom:hover {
-  background-color: #CACACB;
-  border-radius: 0px;
-  border-width: 0px; }
-
-.nav-row .full{
-  margin: 0px;
-  border: 0px;
-  padding:0px;  }
-
-#nav-logo {
-  width:70%; }
-
-.nav-links {
-  font-size: 2em; }
-
-
-.nav-row {
-  padding-top: 15px;
-  padding-bottom: 15px; }
-
-#heroimage {
-  width:100%; }
-
-.centernav {
-  margin: auto; }
-
-.navbar-brand > img {
-  height: 100px;
-  margin:auto; }
-
-.navbar-header {
-  width:100%;
-  min-height: 150px;
-  margin: auto; }
-
-.navbar-nav {
-  width: 100%;
-  text-align: center; }
-
-.navbar-brand {
-  width: 100%;
-  display: inline-block;
-  float: none;
-  text-align: center; }
-
-.navbar-nav > li {
-  float: none;
-  display: inline-block;
-  font-size: 20pt; } */
 
   /*Index Stuff*/
 
@@ -424,27 +364,30 @@ float: right;}
   font-size: 1.7em;
   color: white;
   text-align: center;
-  padding: 10px;
-  min-height: 152px; }
+  padding: 10px; }
 
 #news {
   background-color: #075E3C;
-  border-style: solid;
+  /*border-style: solid;
   border-color: white;
-  border-width: 0px;
-  text-align: center; }
+  border-width: 5px;*/
+  text-align: center;
+  min-height: 425px;}
 
 #custom {
   background-color: #075E3C;
-  border-style: solid;
+  /*border-style: solid;
   border-color: white;
-  border-width: 0px;
-  text-align: center;}
+  border-width: 5px;*/
+  text-align: center;
+  min-height: 425px; }
 
 #contact {
   background-color: #142619;
   min-height: 100px; }
 
+.form-index {
+  min-height: 169px; }
 
 /*Shop Page*/
 
@@ -571,7 +514,11 @@ float: right;}
   min-height: 300px; }
 
 .bottom-index-info {
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  /*background-color:#075E3C;*/
+  /*border-style: solid;
+  border-color: white;
+  border-width: 15px; }*/
 
 #questions {
   font-family: "mr-eaves-modern",sans-serif;
@@ -734,7 +681,8 @@ div#columns:hover figure:not(:hover) {
 .media-object-about {
   width: 100%;
   height: auto;
-  padding: 25px; }
+  padding: 25px;
+  margin-top: 15px; }
 
 .media-heading-no-margin {
   font-family: "mr-eaves-modern",sans-serif;
