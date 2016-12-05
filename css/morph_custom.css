@@ -12,7 +12,7 @@
 
 /*Logo*/
 
-#meta {
+/*#meta {
   font-size: 24pt;
   font-family: mr-eaves-modern, sans-serif;
   font-style: normal;
@@ -35,9 +35,9 @@
   border-width: 3px;
   background-color: black;
   margin: -5px;
-  padding: 15px; }
+  padding: 15px; }*/
 
-/*Footer Logo*/
+/*Footer*/
 
 #meta-inverse {
   font-size: 12pt;
@@ -65,9 +65,8 @@
   padding: 10px; }
 
 .footer-logo {
-  margin-top: 20px; }
-
-  /*More Footer*/
+  margin-top: 20px;
+  margin-left: 13px; }
 
 #footer {
   background-color: black;
@@ -76,36 +75,62 @@
   border-left: 7px solid black;
   color: white; }
 
-.social-media-icons {
-  float: right; }
+.social-media-icons-xs {
+ margin-top: 30px;
+float: left;}
+
+.social-media-icons-sm {
+
+float: right;}
+
+.social-media-icons img {
+  width: 45px;
+  height: 45px; }
 
 #nav-logo-bottom {
   max-height:55px; }
 
-
 /*New Launchpad Nav*/
-
+/*
 .logo-row-index {
   margin-top: 30px; }
 
 .buttons-row-index {
   margin-top: 30px;
-  background: #fff url(../img/nav-bk.png) repeat-x; }
-
+  background: #fff url(../img/nav-bk.png) repeat-x; }*/
 
 /*Icon Logo*/
 
-.icon-logo img {
+.logo-index img {
+  height: 200px;
+  height: 200px;
+  text-align: center;
+  margin-top: 10px;
+  position:relative; }
+
+.icon-logo-big img {
   height: 75px;
   width: 75px;
   text-align: center;
   margin-top: 10px;
   position:relative; }
 
+.icon-logo-small img {
+  height: 120px;
+  width: 120px;
+  text-align: center;
+  margin-top: 20px;
+  position:relative; }
+
 .logo-nav-center  {
     text-align: center;  }
 
-/*Nav Buttons*/
+/*Nav Stuff*/
+
+#toprow {
+  border-bottom: 7px solid black;
+  background-color: black;
+  color:white; }
 
 .a-white {
   color: white;
@@ -125,7 +150,14 @@
   font-style: italic;
   font-weight: 400; }
 
-.navbuttoncustom-hatch {
+.a-white-active-page {
+  color: #F8A51E;
+  text-decoration: none;
+  font-family: "mr-eaves-modern",sans-serif;
+  font-style: normal;
+  font-weight: 800; }
+
+.nav-link-big {
   border-radius: 0px;
   border-width: 0px;
   font-size: 13pt;
@@ -138,12 +170,38 @@
   text-decoration: none;
   margin-top: 38px;
   margin-bottom: 20px;
-  text-align: center;}
+  text-align: center; }
 
-#toprow {
-  border-bottom: 7px solid black;
-  background-color: black;
-  color:white; }
+.nav-link-small {
+  border-radius: 0px;
+  border-width: 0px;
+  font-size: 10pt;
+  font-family: mr-eaves-modern, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  color: white;
+  letter-spacing: 4px;
+  line-height: 113%;
+  width: 100%;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: left; }
+
+.nav-link-big-index {
+  border-radius: 0px;
+  border-width: 0px;
+  font-size: 13pt;
+  font-family: mr-eaves-modern, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  color: white;
+  letter-spacing: 4px;
+  width: 100%;
+  text-decoration: none;
+  margin-top: 95px;
+  margin-bottom: 20px;
+  text-align: center; }
 
 /*
 .navbuttoncustom:hover {
@@ -197,7 +255,13 @@
   display: inline-block;
   font-size: 20pt; } */
 
-    /*About Text Container*/
+  /*Index Stuff*/
+
+#heroimage {
+  margin-top: 20px;
+  width:100%; }
+
+  /*About Text Container*/
 
 #text-container {
   display:block;
@@ -227,6 +291,35 @@
   color: white;
   text-align: center;
   padding-top: 10px; }
+
+.submit-custom-email {
+  width: 80%;
+  box-sizing: border-box;
+  font-family: "mr-eaves-modern",sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5em;
+  background-color: white;
+  color: black;
+  min-height: 25px;
+  margin-bottom: 10px;}
+
+.input-custom-index {
+  width: 80%;
+  background-color: #075E3C;
+  box-sizing: border-box;
+  font-family: "mrs-eaves",sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 1.7em;
+  color: white;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  margin: 0 auto;
+  margin-bottom: 20px; }
 
     /*Hover Crystal Icons*/
 
@@ -300,12 +393,7 @@
   font-weight: 400;
   font-size: 1.7em;
   text-align:justify;
-  margin-top: 15px;}
-
-/* .divider {
-  background-color: #F8A51E;
-  min-height:20px;
-  margin-top:20px; } */
+  margin-top: 15px; }
 
 .horizontal-rule {
   height:0px;
@@ -336,7 +424,8 @@
   font-size: 1.7em;
   color: white;
   text-align: center;
-  padding: 10px; }
+  padding: 10px;
+  min-height: 152px; }
 
 #news {
   background-color: #075E3C;
@@ -344,15 +433,6 @@
   border-color: white;
   border-width: 0px;
   text-align: center; }
-
-.form-inline {
-  padding-bottom: 15px; }
-
-.form-control {
-  border-radius: 0px; }
-
-.sharp {
-  border-radius: 0px; }
 
 #custom {
   background-color: #075E3C;
@@ -497,14 +577,16 @@
   font-family: "mr-eaves-modern",sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 2em;
+  font-size: 14pt;
   color: white;
   text-align: center;
-  padding: 10px;
-  position: absolute;
+  padding: 50px;
+  margin-bottom: 5px;
+  min-height: 350px; }
+  /*position: absolute;
   top: 30%;
   left: 50%;
-  transform: translate(-50%,-50%);}
+  transform: translate(-50%,-50%); */
 
 
   /*Shop Item CSS*/
@@ -649,10 +731,10 @@ div#columns:hover figure:not(:hover) {
 
 /* About Page Stuff */
 
-.crystal-set-image {
-  background-image: url("/img/circle_crystals.png");
+.media-object-about {
   width: 100%;
-  height: auto; }
+  height: auto;
+  padding: 25px; }
 
 .media-heading-no-margin {
   font-family: "mr-eaves-modern",sans-serif;
@@ -660,6 +742,16 @@ div#columns:hover figure:not(:hover) {
   font-weight: 700;
   font-size: 3em;
   text-align:justify; }
+
+.media-index-story {
+  font-family: "mrs-eaves",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.7em;
+  text-align:justify;
+  margin-top: 15px;
+  margin-bottom: 35px;
+  padding-right: 33px; }
 
 /* Custom Form Stuff */
 
