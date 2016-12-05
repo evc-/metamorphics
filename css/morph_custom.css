@@ -243,9 +243,9 @@ float: right;}
   color: black;
   min-height: 25px;
   margin-bottom: 10px;}
-
-.input-custom-index {
+.input-custom-text {
   width: 80%;
+  max-width: 80%;
   background-color: #075E3C;
   box-sizing: border-box;
   font-family: "mrs-eaves",sans-serif;
@@ -259,7 +259,26 @@ float: right;}
   border-bottom-style: solid;
   border-bottom-width: 3px;
   margin: 0 auto;
-  margin-bottom: 20px; }
+  margin-bottom: 15px;
+  padding: 1px;}
+.input-custom-index {
+  width: 80%;
+  max-width: 80%;
+  background-color: #075E3C;
+  box-sizing: border-box;
+  font-family: "mrs-eaves",sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 1.7em;
+  color: white;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 1px;}
 
     /*Hover Crystal Icons*/
 
@@ -364,7 +383,9 @@ float: right;}
   font-size: 1.7em;
   color: white;
   text-align: center;
-  padding: 10px; }
+  padding: 10px;
+  height:calc(200px - 6vw);
+}
 
 #news {
   background-color: #075E3C;
@@ -372,7 +393,8 @@ float: right;}
   border-color: white;
   border-width: 5px;*/
   text-align: center;
-  min-height: 425px;}
+  /*min-height: 425px;*/
+}
 
 #custom {
   background-color: #075E3C;
@@ -386,8 +408,8 @@ float: right;}
   background-color: #142619;
   min-height: 100px; }
 
-.form-index {
-  min-height: 169px; }
+/*.form-index {
+  min-height: 169px; }*/
 
 /*Shop Page*/
 
