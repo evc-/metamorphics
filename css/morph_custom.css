@@ -437,12 +437,24 @@ float: right;}
   border-color: black;
   border-width: 3px; }
 
+@media (max-width: 670px) {
+
+  .btn-cont {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); }
+}
+
+@media (min-width: 671px) {
   .btn-cont {
     position: absolute;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%); }
+    }
 
   .btn-cont a {
     text-decoration: none; }
@@ -514,27 +526,21 @@ float: right;}
   min-height: 300px; }
 
 .bottom-index-info {
-  margin-bottom: 10px;
+  margin-bottom: 10px; }
+
   /*background-color:#075E3C;*/
   /*border-style: solid;
   border-color: white;
   border-width: 15px; }*/
 
 #questions {
-  font-family: "mr-eaves-modern",sans-serif;
+  font-family: "mrs-eaves",sans-serif;
   font-style: normal;
-  font-weight: 700;
-  font-size: 14pt;
-  color: white;
+  font-weight: 400;
+  font-size: 1.7em;
   text-align: center;
-  padding: 50px;
-  margin-bottom: 5px;
-  min-height: 350px; }
-  /*position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%,-50%); */
-
+  color: white;
+  padding: 48px; }
 
   /*Shop Item CSS*/
 
@@ -681,8 +687,7 @@ div#columns:hover figure:not(:hover) {
 .media-object-about {
   width: 100%;
   height: auto;
-  padding: 25px;
-  margin-top: 15px; }
+  padding: 25px; }
 
 .media-heading-no-margin {
   font-family: "mr-eaves-modern",sans-serif;
@@ -697,9 +702,21 @@ div#columns:hover figure:not(:hover) {
   font-weight: 400;
   font-size: 1.7em;
   text-align:justify;
-  margin-top: 15px;
-  margin-bottom: 35px;
-  padding-right: 33px; }
+  padding: 25px; }
+
+.definitions-sm {
+  font-size: 16pt;
+  font-family: "mrs-eaves",sans-serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.definitions-lg {
+  font-size: 26pt;
+  font-family: "mrs-eaves",sans-serif;
+  font-style: italic;
+  font-weight: 700;
+}
 
 /* Custom Form Stuff */
 
