@@ -885,7 +885,29 @@ div#columns:hover figure:not(:hover) {
   font-style: normal;
   font-weight: 700;
   color: white;
+  font-size: 14pt;
   padding: 10px;
-  border-radius: 2px;
+  border-radius: 2px; }
 
-}
+#check-out-button {
+  font-family: "mr-eaves-modern",sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color: white;
+  font-size: 14pt;
+  border-style: solid;
+  border-color: white;
+  border-width: 3px;
+  text-align: center; }
+
+#check-out-button:hover {
+  font-family: "mr-eaves-modern",sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color: white;
+  font-size: 14pt;
+  border-style: solid;
+  border-color: white;
+  border-width: 3px;
+  text-align: center;
+  background-color: #F8A51E; }

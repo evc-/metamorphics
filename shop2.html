@@ -33,13 +33,27 @@
 
 <link rel=icon href="img/icon_logo.png">
 
+<!-- Tally Cart Script  -->
+
 <script>
 function tallyCart() {
   var cost = 0;
 
+// Single Boxes
   cost = cost + document.getElementById("r1E").value*5 + document.getElementById("r1F").value*20;
-
   cost = cost + document.getElementById("r2E").value*5 + document.getElementById("r2F").value*20;
+  cost = cost + document.getElementById("r3E").value*5 + document.getElementById("r3F").value*25;
+  cost = cost + document.getElementById("r4E").value*5 + document.getElementById("r4F").value*20;
+  cost = cost + document.getElementById("r5E").value*5 + document.getElementById("r5F").value*25;
+  cost = cost + document.getElementById("r6E").value*5 + document.getElementById("r6F").value*20;
+  cost = cost + document.getElementById("r7E").value*5 + document.getElementById("r7F").value*30;
+  cost = cost + document.getElementById("r8E").value*5 + document.getElementById("r8F").value*20;
+  cost = cost + document.getElementById("r9E").value*5 + document.getElementById("r9F").value*20;
+
+// Collections
+  cost = cost + document.getElementById("c1E").value*20 + document.getElementById("c1F").value*60;
+  cost = cost + document.getElementById("c2E").value*30 + document.getElementById("c2F").value*80;
+  cost = cost + document.getElementById("c3E").value*40 + document.getElementById("c3F").value*100;
 
  document.getElementById("total").innerHTML = "Total: $" + cost +".00";
 
@@ -166,7 +180,8 @@ function tallyCart() {
   </div>
 
   <div class="tally-float">
-    <p id="total">TOTALLLLLL</p>
+    <p id="total">Total</p>
+    <p id="check-out-button">Go to Checkout</p>
   </div>
 
   <!--Start body tags-->
@@ -228,7 +243,7 @@ function tallyCart() {
                     <a href="item.html" class="item-code">
                         HW-10-dF
                     </a>
-                    <form class="add-to-cart-sm">[]
+                    <form class="add-to-cart-sm">
                       <input id="r1E" onchange="tallyCart()" class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Empty">
                       <input id="r1F" onchange="tallyCart()" class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Filled">
                     </form>
@@ -249,8 +264,8 @@ function tallyCart() {
                       hW-00-Df
                   </a>
                     <form class="add-to-cart-sm">
-                      <input class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Empty">
-                      <input class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Filled">
+                      <input id="r2E" onchange="tallyCart()" class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Empty">
+                      <input id="r2F" onchange="tallyCart()" class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Filled">
                     </form>
                 </h3>
             </div>
@@ -269,8 +284,8 @@ function tallyCart() {
                       hW-13-df
                   </a>
                     <form class="add-to-cart-sm">
-                      <input class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Empty">
-                      <input class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Filled">
+                      <input id="r3E" onchange="tallyCart()" class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Empty">
+                      <input id="r3F" onchange="tallyCart()" class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Filled">
                     </form>
                 </h3>
             </div>
@@ -295,8 +310,8 @@ function tallyCart() {
                     hW-01-dF
                 </a>
                   <form class="add-to-cart-sm">
-                    <input class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Empty">
-                    <input class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Filled">
+                    <input id="r4E" onchange="tallyCart()" class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Empty">
+                    <input id="r4F" onchange="tallyCart()" class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Filled">
                   </form>
               </h3>
           </div>
@@ -315,8 +330,8 @@ function tallyCart() {
                     hW-02-DF
                 </a>
                   <form class="add-to-cart-sm">
-                    <input class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Empty">
-                    <input class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Filled">
+                    <input id="r5E" onchange="tallyCart()" class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Empty">
+                    <input id="r5F" onchange="tallyCart()" class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Filled">
                   </form>
               </h3>
           </div>
@@ -335,8 +350,8 @@ function tallyCart() {
                     hW-10-df
                 </a>
                   <form class="add-to-cart-sm">
-                    <input class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Empty">
-                    <input class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Filled">
+                    <input id="r6E" onchange="tallyCart()" class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Empty">
+                    <input id="r6F" onchange="tallyCart()" class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Filled">
                   </form>
               </h3>
           </div>
@@ -360,8 +375,8 @@ function tallyCart() {
                     HW-00-DF
                 </a>
                   <form class="add-to-cart-sm">
-                    <input class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Empty">
-                    <input class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Filled">
+                    <input id="r7E" onchange="tallyCart()" class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Empty">
+                    <input id="r7F" onchange="tallyCart()" class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Filled">
                   </form>
               </h3>
           </div>
@@ -380,8 +395,8 @@ function tallyCart() {
                     hW-00-DF
                 </a>
                   <form class="add-to-cart-sm">
-                    <input class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Empty">
-                    <input class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Filled">
+                    <input id="r8E" onchange="tallyCart()" class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Empty">
+                    <input id="r8F" onchange="tallyCart()" class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Filled">
                   </form>
               </h3>
           </div>
@@ -400,8 +415,8 @@ function tallyCart() {
                     HW-11-df
                 </a>
                   <form class="add-to-cart-sm">
-                    <input class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Empty">
-                    <input class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Filled">
+                    <input id="r9E" onchange="tallyCart()" class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Empty">
+                    <input id="r9F" onchange="tallyCart()" class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Filled">
                   </form>
               </h3>
           </div>
@@ -439,8 +454,8 @@ function tallyCart() {
                       Granite Collection
                   </a>
                     <form class="add-to-cart-sm">
-                      <input class="shop-input" type="number" name="quantity" min="1" max="100"placeholder="Empty">
-                      <input class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Filled">
+                      <input id="c1E" onchange="tallyCart()" class="shop-input" type="number" name="quantity" min="1" max="100"placeholder="Empty">
+                      <input id="c1F" onchange="tallyCart()" class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Filled">
                     </form>
                 </h3>
             </div>
@@ -458,8 +473,8 @@ function tallyCart() {
                       Limestone Collection
                   </a>
                     <form class="add-to-cart-sm">
-                      <input class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Empty">
-                      <input class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Filled">
+                      <input id="c2E" onchange="tallyCart()" class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Empty">
+                      <input id="c2F" onchange="tallyCart()" class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Filled">
                     </form>
                 </h3>
             </div>
@@ -477,8 +492,8 @@ function tallyCart() {
                       Amethyst Collection
                   </a>
                     <form class="add-to-cart-sm">
-                      <input class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Empty">
-                      <input class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Filled">
+                      <input id="c3E" onchange="tallyCart()" class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Empty">
+                      <input id="c3F" onchange="tallyCart()" class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Filled">
                     </form>
                 </h3>
             </div>
