@@ -433,7 +433,7 @@ float: right;}
     font-weight: 300; }
 
 .productpic:hover img {
-  opacity: 0.35;
+  opacity: 0.2;
   border-style: solid;
   border-width: 3px;
   border-color: black;}
@@ -450,6 +450,41 @@ float: right;}
   font-weight: 200;
   text-align: center;
   display: block; }
+
+.definitions-sm-bold {
+  font-size: 16pt;
+  font-family: "mrs-eaves",sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  border-bottom-color: black;
+  border-bottom-style: dotted;
+  border-bottom-width: 3px; }
+
+/*Tool Tip Stuff*/
+
+.tool-tip-outer {
+    position: relative;
+    display: inline-block; }
+
+.tool-tip-outer .tool-tip-inner {
+    visibility: hidden;
+    width: 360px;
+    background-color: black;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1; }
+
+.tool-tip-outer:hover .tool-tip-inner {
+    visibility: visible; }
+
+.tooltiptext-sm {
+  font-size: 14pt;
+  font-family: "mr-eaves-modern",sans-serif;
+  font-style: normal;
+  font-weight: 200; }
 
   /*Contact Button Stuff*/
 
@@ -685,7 +720,7 @@ div#columns:hover figure:not(:hover) {
   padding-top: 5px;
   font-family: "mr-eaves-modern",sans-serif;
   font-style: normal;
-  font-weight: 100;
+  font-weight: 700;
   color: white;
   font-size: 16pt;
   text-align: center;}
@@ -730,15 +765,19 @@ div#columns:hover figure:not(:hover) {
   font-size: 16pt;
   font-family: "mrs-eaves",sans-serif;
   font-style: italic;
-  font-weight: 400;
-}
+  font-weight: 400; }
+
+.definitions-md {
+  font-size: 21pt;
+  font-family: "mrs-eaves",sans-serif;
+  font-style: italic;
+  font-weight: 400; }
 
 .definitions-lg {
   font-size: 26pt;
   font-family: "mrs-eaves",sans-serif;
   font-style: italic;
-  font-weight: 700;
-}
+  font-weight: 700; }
 
 /* Custom Form Stuff */
 
