@@ -433,7 +433,7 @@ float: right;}
     font-weight: 300; }
 
 .productpic:hover img {
-  opacity: 0.2;
+  opacity: 0.3;
   border-style: solid;
   border-width: 3px;
   border-color: black;}
@@ -674,9 +674,8 @@ float: right;}
 .descriptions-item-page:hover {
   opacity: 1; }
 
-.portfolio-item:hover {
-  opacity: 0.2;
-}
+.portfolio-item-item:hover {
+  opacity: 0.2; }
 
   /*Look Book*/
 
@@ -685,8 +684,7 @@ float: right;}
 	column-gap: 15px;
   width: 90%;
 	max-width: 1100px;
-	margin: 50px auto;
-}
+	margin: 50px auto; }
 
 div#columns figure {
 	background: #fefefe;
@@ -697,8 +695,7 @@ div#columns figure {
 	padding-bottom: 10px;
 	transition: opacity .4s ease-in-out;
   display: inline-block;
-  column-break-inside: avoid;
-}
+  column-break-inside: avoid; }
 
 div#columns figure img {
 	width: 100%; height: auto;
