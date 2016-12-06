@@ -423,7 +423,7 @@ float: right;}
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    width: 100%;
+    width: 80%;
     opacity: 0;
     height:65%;
     font-size: 1em;
@@ -605,6 +605,7 @@ float: right;}
   border-style:solid;
   border-color: black;
   border-width: 3px;
+  margin-top: 20px;
   margin-left: 0px;
   margin-right: 0px; }
 
@@ -653,6 +654,29 @@ float: right;}
   border-right-width: 3px;
   border-bottom-width: 3px;
   border-color: black; }
+
+.descriptions-item-page {
+  transition: all .2s;
+  color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 50%;
+  opacity: 0;
+  height:65%;
+  font-size: 1em;
+  text-align: center;
+  font-family: "mr-eaves-modern",sans-serif;
+  font-style: normal;
+  font-weight: 300; }
+
+.descriptions-item-page:hover {
+  opacity: 1; }
+
+.portfolio-item:hover {
+  opacity: 0.2;
+}
 
   /*Look Book*/
 
