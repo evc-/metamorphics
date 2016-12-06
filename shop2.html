@@ -31,6 +31,21 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+<link rel=icon href="img/icon_logo.png">
+
+<script>
+function tallyCart() {
+  var cost = 0;
+
+  cost = cost + document.getElementById("r1E").value*5 + document.getElementById("r1F").value*20;
+
+  cost = cost + document.getElementById("r2E").value*5 + document.getElementById("r2F").value*20;
+
+ document.getElementById("total").innerHTML = "Total: $" + cost +".00";
+
+}
+</script>
+
 </head>
 
 <body>
@@ -150,6 +165,10 @@
   </div>
   </div>
 
+  <div class="tally-float">
+    <p id="total">TOTALLLLLL</p>
+  </div>
+
   <!--Start body tags-->
   <div id="allbody">
     <div class="container" id="insidebody">
@@ -209,9 +228,9 @@
                     <a href="item.html" class="item-code">
                         HW-10-dF
                     </a>
-                    <form class="add-to-cart-sm">
-                      <input class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Empty">
-                      <input class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Filled">
+                    <form class="add-to-cart-sm">[]
+                      <input id="r1E" onchange="tallyCart()" class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Empty">
+                      <input id="r1F" onchange="tallyCart()" class="shop-input" type="number" name="quantity" min="1" max="100" placeholder="Filled">
                     </form>
                 </h3>
             </div>
@@ -407,7 +426,7 @@
         <!-- Collections Row -->
         <div class="row">
             <div class="col-md-4 portfolio-item productpic">
-                <a href="item.html">
+                <a href="collection.html">
                     <img class="img-responsive" src="img/collection1_sq.jpg" alt="">
                     <div class="descriptions">
                       <p class="definitions-md">$20 Empty</p>
@@ -416,7 +435,7 @@
                     </div>
                 </a>
                 <h3>
-                  <a href="item.html" class="item-code">
+                  <a href="collection.html" class="item-code">
                       Granite Collection
                   </a>
                     <form class="add-to-cart-sm">
@@ -426,7 +445,7 @@
                 </h3>
             </div>
             <div class="col-md-4 portfolio-item productpic">
-                <a href="item.html">
+                <a href="collection.html">
                     <img class="img-responsive" src="img/collection2_sq.jpg" alt="">
                     <div class="descriptions">
                       <p class="definitions-md">$30 Empty</p>
@@ -435,7 +454,7 @@
                     </div>
                 </a>
                 <h3>
-                  <a href="item.html" class="item-code">
+                  <a href="collection.html" class="item-code">
                       Limestone Collection
                   </a>
                     <form class="add-to-cart-sm">
@@ -445,7 +464,7 @@
                 </h3>
             </div>
             <div class="col-md-4 portfolio-item productpic">
-                <a href="item.html">
+                <a href="collection.html">
                     <img class="img-responsive" src="img/collection3_sq.jpg" alt="">
                     <div class="descriptions">
                       <p class="definitions-md">$40 Empty</p>
@@ -454,7 +473,7 @@
                     </div>
                 </a>
                 <h3>
-                  <a href="item.html" class="item-code">
+                  <a href="collection.html" class="item-code">
                       Amethyst Collection
                   </a>
                     <form class="add-to-cart-sm">

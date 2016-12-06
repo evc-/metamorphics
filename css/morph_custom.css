@@ -647,13 +647,17 @@ float: right;}
   border-color: black; }
 
 .add-to-cart:hover {
-  background-color: #F8A51E;
+  background-color: #701A12;
   border-style: solid;
   border-top-width: 0px;
   border-left-width: 3px;
   border-right-width: 3px;
   border-bottom-width: 3px;
   border-color: black; }
+
+.add-to-cart a {
+  color: white;
+  text-decoration: none; }
 
 .descriptions-item-page {
   transition: all .2s;
@@ -854,3 +858,34 @@ div#columns:hover figure:not(:hover) {
   font-style: italic;
   font-weight: 200;
   font-size: 1.4em; }
+
+/*Collection Page Stuff*/
+
+.shop-item-pic-collection {
+  width: 100%;
+  border-style:solid;
+  border-color: black;
+  border-width: 3px;}
+
+.add-to-cart a {
+  color: white;
+  text-decoration: none; }
+
+/*Tally*/
+
+.tally-float {
+  position: fixed;
+  width:200px;
+  height:100px;
+  background:#701A12;
+  right:10px;
+  top:110px;
+  z-index: 1;
+  font-family: "mr-eaves-modern",sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color: white;
+  padding: 10px;
+  border-radius: 2px;
+
+}
