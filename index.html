@@ -26,8 +26,20 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    
+
 <link rel=icon href="img/icon_logo.png">
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="sss/sss.min.js"></script><link rel="stylesheet" href="sss/sss.css" type="text/css" media="all">
+<script>jQuery(function($) {$('.slider').sss();});</script>
+
+
+$('.slider').sss({
+slideShow : true, // Set to false to prevent SSS from automatically animating.startOn : 0, // Slide to display first. Uses array notation (0 = first slide).transition : 400, // Length (in milliseconds) of the fade transition.speed : 3500, // Slideshow speed in milliseconds.showNav : true // Set to false to hide navigation arrows.
+});
+
+
 </head>
 
 <body>
@@ -154,7 +166,15 @@
 <span id="morphics">MORPHICS</span> -->
 
 <!-- Full Width Image Header -->
-<img src="img/heroimg3-3.jpg" alt="hero" class="img-responsive center-block"  id="heroimage">
+
+<div class="slider">
+<img src="img/sliders/slider_edit1.jpg" alt="hero" class="img-responsive center-block heroimage"/>
+<img src="img/sliders/slider_edit2.jpg" alt="hero" class="img-responsive center-block heroimage"/>
+<img src="img/sliders/slider_edit3.jpg" alt="hero" class="img-responsive center-block heroimage"/>
+<img src="img/sliders/slider_edit4.jpg" alt="hero" class="img-responsive center-block heroimage"/>
+</div>
+
+<!-- <img src="img/heroimg3-3.jpg" alt="hero" class="img-responsive center-block"  id="heroimage"> -->
 
 <!--Text Container-->
 
@@ -304,8 +324,10 @@
 
       <div class="col-xs-12 hidden-sm hidden-md hidden-lg hidden-xl">
         <div class="footer-logo">
+          <a href="index.html">
           <span id="meta-inverse">META</span>
           <span id="morphics-inverse">MORPHICS</span>
+        </a>
         </div>
       </div>
 
@@ -328,8 +350,10 @@
       <div class="col-sm-6 hidden-xs">
 
         <div class="footer-logo">
+          <a href="index.html">
           <span id="meta-inverse">META</span>
           <span id="morphics-inverse">MORPHICS</span>
+          </a>
         </div>
 
       </div>
