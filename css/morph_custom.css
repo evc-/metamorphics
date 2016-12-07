@@ -923,5 +923,5 @@ div#columns:hover figure:not(:hover) {
   background-size: 200px; */
 
 .slider-bg {
-  background-image:url("/img/crystalpattern.png");
+  background-image:url("../img/crystalpattern.png");
   background-size: 200px; }
