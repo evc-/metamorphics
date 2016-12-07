@@ -918,8 +918,10 @@ div#columns:hover figure:not(:hover) {
   width: 70%;
   padding-top: 20px;
   margin: 0 auto;
-  z-index: 1; }
+  z-index: 1;
+  background-image:url("/img/crystalpattern.png");
+  background-size: 200px; }
 
 .slider-bg {
   background-image:url("/img/crystalpattern.png");
-  background-size: 200px;}
+  background-size: 200px; }
