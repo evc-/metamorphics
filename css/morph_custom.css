@@ -911,3 +911,15 @@ div#columns:hover figure:not(:hover) {
   border-width: 3px;
   text-align: center;
   background-color: #F8A51E; }
+
+/*Slider Stuff*/
+
+.slider {
+  width: 70%;
+  padding-top: 20px;
+  margin: 0 auto;
+  z-index: 1; }
+
+.slider-bg {
+  background-image:url("/img/crystalpattern.png");
+background-size: 350px;}
